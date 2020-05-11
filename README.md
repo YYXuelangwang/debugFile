@@ -25,9 +25,9 @@ once you want to write the debug message to local file, maybe this repository ca
     This class that stores/reads debug information, which provides the interface to read/write, is stored in the document/debug/debug_net_ios.txt file by default if the file storage path is not set
 
     ``` objc
-    + (instancetype)standardDefault; // 存储在debug_net_ios.txt中
-    - (instancetype)init;   // 存储在debug_net_ios.txt中
-    - (instancetype)initWithFilePath:(NSString*)filePath;   // 存储在自定义的filepath中
+    + (instancetype)standardDefault; // stored in debug_net_ios.txt
+    - (instancetype)init;   // stored in debug_net_ios.txt
+    - (instancetype)initWithFilePath:(NSString*)filePath;   // stored in a custom filepath
     ```
 
 3. YYDebugFileSingleton
