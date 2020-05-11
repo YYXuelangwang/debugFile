@@ -126,7 +126,7 @@ static const NSInteger KPrefixItem_Tag = 200;
             btn.layer.cornerRadius = itemWidth * 0.5;
             btn.layer.masksToBounds = YES;
             btn.backgroundColor = [UIColor colorWithRed:arc4random()%255 / 255.0 green:arc4random()%255/255.0 blue:arc4random()%255/255.0 alpha:arc4random()%255/255.0];
-            btn.titleLabel.font = [UIFont systemFontOfSize:12];
+            btn.titleLabel.adjustsFontSizeToFitWidth = YES;
             [btn addTarget:self action:@selector(clickedItem:) forControlEvents:UIControlEventTouchUpInside];
         }
         btn.frame = CGRectMake(radius * cos(angle * i) - itemWidth * 0.5 + self.bounds.size.width * 0.5, radius * sin(angle * i) - itemWidth * 0.5 + self.bounds.size.height * 0.5, itemWidth, itemWidth);
