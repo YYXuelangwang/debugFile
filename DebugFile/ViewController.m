@@ -60,7 +60,7 @@
         return;
     }
     
-    SuspendButton *button = [[SuspendButton alloc] initWithFrame:CGRectMake(kYYWinSize.width -110-100, 50, 30, 30)];
+    SuspendButton *button = [[SuspendButton alloc] initWithFrame:CGRectMake(kYYWinSize.width -110-100, 50, 45, 45)];
     [button setTitle:@"debug" forState:UIControlStateNormal];
     button.titleLabel.adjustsFontSizeToFitWidth = YES;
     button.backgroundColor = [UIColor greenColor];
