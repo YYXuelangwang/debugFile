@@ -3,6 +3,11 @@ once you want to write the debug message to local file, maybe this repository ca
 
 [中文说明](https://github.com/YYXuelangwang/debugFile/blob/master/README_ZH.md)
 
+simple to install
+``` podfile
+pod 'debugFileStore', '~>0.0.3', :configurations => 'Debug'
+```
+
 ### introduce
 
 1. SuspendButton

@@ -2,6 +2,11 @@
 
 如果你想将debug信息存储到本地，或许这个仓库可以帮到你；
 
+简单安装
+``` podfile
+pod 'debugFileStore', '~>0.0.3', :configurations => 'Debug'
+```
+
 ### introduce
 
 1. SuspendButton
